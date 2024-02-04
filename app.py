@@ -37,7 +37,7 @@ user_input = st.text_input("メッセージを入力してください。",
 if st.session_state["messages"]:
     messages = st.session_state["messages"]
 
-    for message in reversed(messages[1:])
+    for message in reversed(messages[1:]):
         speaker = "🙂"
         if message["role"]=="assistant":
             speaker="🤖"
