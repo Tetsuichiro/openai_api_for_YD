@@ -27,7 +27,7 @@ def communicate():
 
 
 st.title("Y's AI Assistant")
-st.image("IMG_5469.jpg")
+st.image("IMG_5581.jpg")
 st.write("ChatGPT APIを使ったチャットボットです。")
 
 user_input = st.text_input("メッセージを入力してください。",
